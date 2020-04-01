@@ -287,7 +287,8 @@ body {
     box-sizing: border-box;
     color: #A9A9A9;
     height: 70px;
-    width: 42%;
+    width: 60%;
+    text-justify: inter-word;
     letter-spacing: 0.5px;
     text-rendering: geometricPrecision;
     font: normal normal 400 normal 14px / 10px Raleway;
@@ -596,21 +597,6 @@ body {
     margin-right: 0px;
 }
 
-.quote{
-    margin: 0px;
-    padding: 0px;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    font-family: 'Lora', serif;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 27px;
-    width: 85%;
-    color: white;
-    text-align: left;
-    line-height: 35pt !important;
-}
-
 .description-text{
     text-align: justify;
     border-collapse: collapse;
@@ -670,17 +656,6 @@ body {
   transition: all 200ms;
 }
 
-.video-play-button:hover:after {
-  background-color: darken(#00B298, 10%);
-}
-
-.video-play-button img {
-  position: relative;
-  z-index: 3;
-  max-width: 100%;
-  width: auto;
-  height: auto;
-}
 
 .video-play-button span {
   display: block;
@@ -700,12 +675,6 @@ body {
     vertical-align: bottom;
 }
 
-.startup-links{
-    opacity: 0;
-    margin-top: 50px;
-    text-align: center;
-}
-
 a.fa {
     color: #00B298;
     /*width: 40px;*/
@@ -713,7 +682,7 @@ a.fa {
     padding-left: 10px;
     padding-right: 10px;
     opacity: 1;
-    text-decoration:none; 
+    text-decoration:none;
     text-align: center;
     display: inline-block;
     /*background: white;*/
