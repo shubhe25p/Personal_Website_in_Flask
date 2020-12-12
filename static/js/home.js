@@ -433,7 +433,7 @@ define(['jquery',
                     if(animAboutReveal != null)
                         animAboutReveal.seek(animAboutReveal.duration);
                     aboutVisible = false;
-                    $('#nav-about').text("ABOUT");
+                    $('#nav-about').text("About");
                     anime.timeline({
                         loop: false,
                         complete: function() {}
@@ -516,17 +516,6 @@ define(['jquery',
                         offset: 1000,
                         delay: function(el, i, l) {
                             return (i * 100);
-                        }
-                    }).add({
-                        targets: '#play-video',
-                        scaleX: [0,1],
-                        scaleY: [0,1],
-                        elasticity: 0,
-                        easing: "easeOutBack",
-                        duration: 500,
-                        offset: '+=1',
-                        complete: function(){
-                            document.getElementById("container-myinfo").style.opacity = 0;
                         }
                     });
                 } else {

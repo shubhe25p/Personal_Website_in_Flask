@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Monoton|Raleway:500|Bitter:400,700|Raleway|Lora:400,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Nunito|Raleway:500|Bitter:400,700|Raleway|Lora:400,700,700i');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;700;900&display=swap" rel="stylesheet"')
 @font-face {
     font-family: LeagueSpartan;
     font-weight: bold;
@@ -68,7 +69,7 @@ body {
     opacity: 0;
     margin-top: 0px;
     color: white;
-    font-family: 'Monoton', cursive;
+    font-family: 'Nunito','sans-serif';
 }
 
 #my-startup {
@@ -101,7 +102,7 @@ body {
     font-family: 'Raleway', sans-serif;
     position: relative;
     font-weight: 300;
-    font-size: 3.5em;
+    font-size: 2.5em;
     margin: 0px;
     color: #ffffff;
 }
@@ -169,7 +170,7 @@ body {
     bottom: 0px;
     box-sizing: border-box;
     position: absolute;
-    z-index: 100021;
+    z-index: 500021;
     background: rgba(0, 0, 0, 0.8) none repeat scroll 0% 0% / auto padding-box border-box;
     font: normal normal 400 normal 16px / 16px sans-serif;
 }
@@ -286,11 +287,11 @@ body {
     border-collapse: collapse;
     box-sizing: border-box;
     color: #A9A9A9;
-    height: 70px;
+    height: 80px;
     width: 42%;
     letter-spacing: 0.5px;
     text-rendering: geometricPrecision;
-    font: normal normal 400 normal 14px / 10px Raleway;
+    font: normal normal 400 normal 14px / 10px Nunito;
     margin: 0px;
     margin-top: 25px;
     line-height: 16.5pt;
@@ -352,13 +353,13 @@ body {
 #experience-container {
     float: left;
     box-sizing: border-box;
-    font: normal normal 400 normal 16px / 16px Raleway;
+    font: normal normal 400 normal 16px / 16px Nunito;
 }
 
 /*#snappy-DIV_13*/
 
 #exp-header {
-    font: normal normal 700 normal 13.5px / 40px Raleway;
+    font: normal normal 700 normal 13.5px / 40px Nunito;
     letter-spacing: 2px;
     margin: 0px;
     padding: 0px;
@@ -367,7 +368,7 @@ body {
 /*#snappy-H3_14*/
 
 #exp-list {
-    font: normal normal 400 normal 16px / 16px Raleway;
+    font: normal normal 400 normal 16px / 16px Nunito;
     list-style: none outside none;
     margin: 0px;
     padding: 0px;
@@ -381,7 +382,7 @@ body {
     text-decoration: none solid rgb(106, 106, 106);
     text-rendering: geometricPrecision;
     border: 0px none rgb(106, 106, 106);
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 13px;
     padding-top: 3px;
     list-style: none outside none;
@@ -592,7 +593,7 @@ body {
     letter-spacing: 4.1px;
     text-decoration: none solid rgb(255, 255, 255);
     text-rendering: geometricPrecision;
-    margin-left: : 0px;
+    margin-left: 0px;
     margin-right: 0px;
 }
 
@@ -618,9 +619,10 @@ body {
     color: #A9A9A9;
     letter-spacing: 0.5px;
     text-rendering: geometricPrecision;
-    font: normal normal 400 normal 14px / 10px Raleway;
-    margin: 0px;
-    line-height: 16.5pt;
+    font: normal normal 400 normal 14px / 10px Nunito;
+    margin: 10px;
+    margin-right: 10px;
+    line-height: 20.5pt;
 }
 
 
